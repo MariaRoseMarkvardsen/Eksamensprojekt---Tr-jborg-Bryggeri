@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*------- Navbar ------*/
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 30;
+}
+.logo img {
+    width: 300px;
+    float: rigt;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+header {
+    width: 100vh;
+    height: 100vh;
+    background-image: url(img/folkdrikkerbeer.png);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content:right;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.header-content h2 {
+    font-size: 3vh;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/*----------Velkommen tekst--------*/
+
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.velkommen {
+    font-size: 3vmin;
+    text-align: center;
+    color: black;
+
+}
+
+/*---------Forside--------*/
+
+.beer-text {
+    font-size: 42px;
+    color: black;
+   
+}
+
+img {
+    max-width: 320px;
+    float: right;
+    border: 3px;
+    margin-left: 15px;
+}
+
+.wrapper {
+    margin: 150px auto;
+    width: auto;
+    height: 250px;
+    background-color: #c9f1c8;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row .col img {
+    width: 80%;
+    margin-top: 30px;
+}
+
+
+.ctn {
+    padding: 8px 15px;
+    background-color: black;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.bryggeri {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bryggeri-content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: black;
+}
+
+.brryggeri-content img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.bryggeri-content h2 {
+    font-size: 3vmin;
+    margin-bottom: 10px;
+
+}
+
+/*---------Footer------------*/
+
+footer {
+    background: #c9f1c8;
+    padding: var(--container);
+  }
+  
+  @media (min-width: 1024px) {
+    footer {
+      padding: 1rem var(--container);
+    }
+  }
+  
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer__logo {
+    max-width: 200px;
+    object-fit: cover;
+    margin-bottom: 0.7rem;
+  }
+  
+  .footer__address {
+    text-align: center;
+  }
+  
+  .footer__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  .footer__icon {
+    max-width: 2rem;
+  }
+/*---------Artikel 2---------------*/
+
+#produkter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0,0.05);
+}
+
+.produkter-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.produkter-heading span {
+    margin-top: 100px;
+}
+
+.produkter-heading h3 {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+}
+
+.produkter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.produkter-box {
+    width: 350px;
+    margin: 20px;
+}
+
+.produkter-img {
+    width: 100%;
+    height: auto;
+}
+
+.produkter-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.produkter-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.produkter-text span {
+    font-size: 2rem;
+}
+
+.produkter-text p {
+    color: black;
+    font-size: 0.9rem;
+
+    margin: 20px 0px;
+    text-align: center;
+}
+/*---------Artikel 3 og 4-----------*/
+.imgmis {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.imgmis img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.voresmission {
+    position: relative;
+    margin-top: 200px;
+}
+
+.mission-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-mission {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.content-mission {
+    text-align: center;
+}
+
+.content-mission h2 {
+    font-size: 3vmin;
+    margin-bottom: 10px;
+}
+
+.content-mission p {
+    font-size: 3vmin;
+    margin-bottom: 20px;
+}
+/*--------Responsiv------*/
+@media only screen and (max-width:850px) {
+    .menu-btn {
+        display: block;
+    }
+    .navbar {
+        padding: 0;
+    }
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: #fff;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu {
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+
+    }
+    .nav-links li {
+        margin: 30px auto;
+    }
+}

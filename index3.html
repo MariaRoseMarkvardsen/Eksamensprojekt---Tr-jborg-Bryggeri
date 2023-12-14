@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trøjborg Bruggeri Mission</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-------Navbar-------->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+            <img src="img/logohvid.png" alt="Logo">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index2.html"></a>Produkter</li>
+            <li><a href="#"></a>Merch</li>
+            <li><a href="index3.html"></a>Vores Mission</li>
+            <li><a href="index4.html"></a>Bryggeri</li>
+            <li><a href="#"></a>Kontakt Os</li>
+        </ul>
+        <img src="./img/btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <!----------Artikel 3--------->
+    <section class="voresmission" id="voresmission">
+    <div class="mission-container">
+        <div class="card-mission">
+            <div class="imgmis">
+                <img src="img/stjernebillede.png">
+            </div>
+            <div class="content-mission">
+                <h2>Vores mission</h2>
+                <p>Trøjborg Bryggeri er ikke blot en producent af alkoholfrie øl; det er en kreativ <br>
+                kraft, der stræber efter at skabe unikke og smagfulde kunstværker inden for <br>
+                ølverdenen. Vores grundlæggende værdier går ud på at bryde stereotyperne <br>
+                om alkoholfrie øl ved at introducere innovative designs og enestående <br>
+                smagsoplevelser, der går ud over det forventede. <br>
+
+                Hvert bryg fra Trøjborg Bryggeri er mere end bare en drik. Det er en <br>
+                manifestation af vores dygtighed og passion for at ændre opfattelsen af <br>
+                alkoholfri øl. Vi tror på, at selvom vores øl ikke indeholder alkohol, behøver de <br>
+                ikke at mangle kompleksitet, karakter eller kunstnerisk udtryk. Derfor går vi på <br>
+                opdagelse i grænserne af smagssammensætninger og eksperimenterer med en <br>
+                palet af ingredienser for at skabe noget ekstraordinært.<br>
+
+                Vores mission strækker sig ud over blot at brygge øl; vi ønsker at skabe et <br>
+                fællesskab, hvor alle, uanset baggrund eller præferencer, kan nyde vores øl. <br>
+                Uanset om du søger en sundere livsstil, er tiltrukket af unikt design eller blot <br>
+                ønsker en uovertruffen smagsoplevelse, er der plads til dig ved vores bord. Vi <br>
+                tror på, at alkoholfri øl ikke kun er et alternativ, men en livsstil og en kunstform <br>
+                i sig selv.<br>
+
+                Trøjborg Bryggeri stræber efter at ændre måden folk ser på alkoholfri øl. Vi <br>
+                mener, at det handler om mere end bare at erstatte alkoholen; det handler om <br>
+                at omfavne en ny tilgang til ølkulturen. Vi kombinerer kreative <br>
+                designelementer med sublime smagsoplevelser og stræber efter at opnå social <br>
+                accept omkring alkoholfrie valgmuligheder. Vores mål er ikke kun at tilbyde et <br>
+                produkt, men at inspirere en bevægelse, hvor alkoholfri øl bliver anerkendt <br>
+                som en integreret del af folks livsstil og en kunstform, der er værd at udforske <br>
+                og nyde.
+            </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+    navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+     <!----------Footer------------>
+   <footer id="kontakt" class="footer fullbleed">
+    <div class="footer__content">
+      <img src="./img/logohvid.png" alt="" class="footer__logo" />
+      <p class="footer__address">
+        Trøjborg Bryg<br>
+        Tordenskjoldsgade<br>
+        Aarhus 8000<br>
+        +61 27 44 34<br>
+        info@trøjborgbryggeri.dk
+      </p>
+        <div class="footer__social-icons">
+          <img src="./img/ficon.png" alt="linkedin" class="footer__icon footer__social-icon" />
+          <img src="./img/iicon.png" alt="facebook" class="footer__icon footer__social-icon" />
+          <img src="./img/yicon.png" alt="facebook" class="footer__icon footer__social-icon" />
+        </div>
+      </div>
+    </footer>
+    </div>
+</body>

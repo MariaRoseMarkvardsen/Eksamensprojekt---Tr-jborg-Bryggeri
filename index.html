@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trøjborg Bruggeri forside</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-------Navbar-------->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+            <img src="img/logohvid.png" alt="Logo">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index2.html"></a>Produkter</li>
+            <li><a href="#"></a>Merch</li>
+            <li><a href="index3.html"></a>Vores Mission</li>
+            <li><a href="index4.html"></a>Bryggeri</li>
+            <li><a href="#"></a>Kontakt Os</li>
+        </ul>
+        <img src="./img/btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Alkoholfrie øl, hvor hver tår er et kunstværk</h2>
+        </div>
+    </header>
+
+    <!----------Artikler---------->
+    <section>
+        <div class="velkommen">
+            <h2>Velkommen til Trøjborg Bryggeri, vi holder til i en <br>
+            baggård i Tordenskjoldsgade i hjertet af Aarhus</h2>
+        </div>
+        <div class="wrapper">
+            <img src="img/beer1.png" alt="Beer">
+            <div class="text-box">
+                <h3>Tjek ud vores nye kollektion:<br>
+                <div class="beer-text">Øl damerne på tur</div></h3>
+                <a href="index2.html" class="ctn">Se mere</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img/shopmerch.png" alt="Merch">
+                <a href="#" class="ctn">Se mere</a>
+            </div>
+            <div class="col">
+                <img src="img/voresmission.png" alt="Mission">
+                <a href="index3.html" class="ctn">Se mere</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bryggeri">
+      <div class="bryggeri-content">
+        <img src="img/bryggeri.jpg" alt="Bryggeri i harmomi med naturen">
+        <div class="bryggeri-text-container"></div>
+        <h2>Bryggeri i harmoni med naturen</h2>
+        <a href="index4.html" class="ctn">Se mere</a>
+        </div>
+    </div>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+   <!----------Footer------------>
+   <footer id="kontakt" class="footer fullbleed">
+    <div class="footer__content">
+      <img src="./img/logohvid.png" alt="" class="footer__logo" />
+      <p class="footer__address">
+        Trøjborg Bryg<br>
+        Tordenskjoldsgade<br>
+        Aarhus 8000<br>
+        +61 27 44 34<br>
+        info@trøjborgbryggeri.dk
+      </p>
+        <div class="footer__social-icons">
+          <img src="./img/ficon.png" alt="linkedin" class="footer__icon footer__social-icon" />
+          <img src="./img/iicon.png" alt="facebook" class="footer__icon footer__social-icon" />
+          <img src="./img/yicon.png" alt="facebook" class="footer__icon footer__social-icon" />
+        </div>
+      </div>
+    </footer>
+    </div>
+
+</body>
+</html>
